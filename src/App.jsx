@@ -1,9 +1,8 @@
- import {Post} from "./components/Post"
+import { PostsList } from "./components/PostsList"
 function App() {
   return (
   <div >
-    <Post  author = "rian" body = "dog is my pet"/>
-    <Post  author = "shafayat" body = "o have a cat"/>
+        <PostsList/>
   </div>
    )
 }
